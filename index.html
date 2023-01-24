@@ -5,79 +5,140 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>TheKelsenator's Portfolio</title>
-  </head>
+  </head>  
 
   <!--Main Header-->
   <header>
     <!--Website Title-->
-    <h1>
-      Kelsey <span class="theKelsenator">- The Kelsenator -</span> O'Kelley
-    </h1>
+    <h1>Kelsey's Portfolio</h1>
+
     <!--Navigation Bar-->
-    <div>
+    <nav>
       <ul>
-        <li>
-          <!--Link to About Me -->
-          <a href="#about-me">About Me</a>
-        </li>
-        <li>
-          <!--Link to Work-->
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <!--Link to Contact Me-->
-          <a href="#contact-me">Contact Me</a>
-        </li>
-        <li>
-          <!--Link to Resume-->
-          <a
-            href="https://www.linkedin.com/in/kelsey-o-kelley-23057a20b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bxc0I1kyrS0OvtWdQBh4jUA%3D%3D/"
-            >Resume</a
-          >
-        </li>
+        <!--Link to About Me -->
+        <li><a href="#about-me">About Me</a></li>
+        <!--Link to Work-->
+        <li><a href="#work">Work</a></li>
+        <!--Link to Contact Me-->
+        <li><a href="#contact-me">Contact Me</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
 
-  <!--Webpage Content-->
   <body>
-    <div class="hero"></div>
-
-    <section>
+    <!--Career Title-->
+    <section class="career-title">    
       <h2>Full-Stack Web Development Student</h2>
     </section>
+    
+    <!--Main Content: Displaying: About Me and Work Sections +
+    Contact, Resume and LinkedIn information-->
+    <main>  
+      <!--About Me Work and Contact-->
+      <div class="catagories">
+        <!--About Me Section-->
+        <section id="about-me" class="me">
+          <h2>About Me</h2>
 
-    <section id="aboutMe" class="section">
-      <div class="section-title">
-        <h2>About Me</h2>
-      </div>
+            <img id="buck-deadhead" src="./assets/images/buck-deadhead.jpg" 
+            alt="Girl Rafting with her Dog">
+            <p>
+            My name is Kelsey M. O'Kelley. I am currently enrolled in a
+            Full-Stack Web Development Program held by The University of Utah. 
+            I am almost 34 years old and live year round in beautiful Stanley, ID - 
+            population 67 people and Gateway to the wild and scenic Frank Church 
+            Wilderness Area.<br>
+            <br>
+            Below you will get an introduction to some of 
+            my work as a Full-Stack Website Development Student, as well as ways 
+            to reach me. (Some of my work has been presented as personal hobbies 
+            as a place holder until I complete more projects.)</p>
+        </section>
+        
+        <!--Work Section-->
+        <section id="work" class="work-title">
+          <h2>Work</h2>
+          
+          <div class="projects">
+            <!--Main Project -->
+            <section class="main-project">
+              <img id="code-refractor" src="./assets/images/digital-marketing-meeting.jpg" 
+              alt="Four Office Workers Collaborating at a Conference Table">
+              <article id="box-text">
+                <a href="https://thekelsenator.github.io/yellow-free-fox-01/">
+                <p>Code Refractor</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Horiseon</p>
+              </article>
+            </section>  
+          
+            <!--Side Projects Section-->
+            <section class="side-projects">
+            
+              <article class="side">
+                <img id="feed-me" src="./assets/images/feed-me.jpg" 
+                alt="Maxwell House Coffee Tin">
+                  <figure id="box-text2">
+                    <a href="https://www.imdb.com/">
+                    <p>Lover of Film</a><br>Feed me</p>
+                  </figure>  
+              </article>
 
-      <div class="section-content">
-        <img
-          src="./assets/images/buck-deadhead.jpg"
-          alt="Girl River-Rafting with her Dog"
-        />
-        <p>
-          My name is Kelsey McKeeth O'Kelley. I am currently 33 years old and
-          live year round in beautiful Stanley, ID - population 67 people - with
-          my boyfriend and our dog! Below you will get an introduction to some
-          of my work as a Full-Stack Website Development Student, as well as
-          ways to reach me. (Some of my work has been presented as personal
-          hobbies as a place holder until I complete more projects.)
-        </p>
-      </div>
-    </section>
+              <article class="side">
+                <img id="blazing-saddles" src="./assets/images/blazing-saddles.png" 
+                alt="Blazing Saddles Movie Poster">
+                  <figure id="box-text2">
+                    <a href="https://loquacious-florentine-c87ce2.netlify.app/">
+                    <p>Flick Picker</a><br>Movie Search</p>
+                  </figure>
+              </article>
 
-    <section id="work" class="section">
-      <div class="section-title">
-        <h2>Work</h2>
-      </div>
+              <article class="side">
+                <img id="indian-creek" src="./assets/images/indian-creek.png" 
+                alt="River Scene with Rafts in the Water">
+                  <figure id="box-text2">
+                    <a href="#frank-church">
+                    <p>Frank Church Wilderness</a><br>White Water Rafting</p>
+                  </figure>
+              </article>
 
-      <div class="section-content"></div>
-    </section>
+              <article class="side">
+                <img id="ramen" src="./assets/images/ramen.jpg" 
+                alt="Bowl of Vegetable Ramen with Egg">
+                  <figure id="box-text2">
+                    <a href="#cooking">
+                    <p>Cooking</a><br>New Things</p>
+                  </figure>
+              </article>
+              
+            </section>
+          </div>
+        </section>
+
+        <!--Contact Me Section-->
+        <section id="contact-me" class="contact-info">
+          <h2>Contact Me</h2>
+
+          <article class="contact-links">
+              <!--Link to About Me -->
+              <li><a href="">Call</a></li>
+              <!--Link to Work-->
+              <li><a href="">Email</a></li>
+              <!--Link to Contact Me-->
+              <li><a href="https://www.linkedin.com/in/kelsey-o-kelley-23057a20b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bxc0I1kyrS0OvtWdQBh4jUA%3D%3D/">LinkedIn</a></li>
+              <!--Link to Resume-->
+              <li><a href="https://github.com/TheKelsenator">Github</a></li>
+          </article>
+
+        </section>
+
+      </div>  
+    </main>  
   </body>
 
-  <footer></footer>
+  <footer>
+    <h2>Made with ❤️ by The Kelsenator</h2>
+  </footer>
+
 </html>

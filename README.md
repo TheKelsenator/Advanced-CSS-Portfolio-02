@@ -7,6 +7,10 @@ Full-Stack Web Development Coding Bootcamp
 
 * Fall 2022 - Spring 2023
 
+## Description
+
+* An (interactive) webpage that displays my work portfolio, it includes a little about me, my work, my contact information and my resume.
+
 ## User Story
 
 * AS AN employer
