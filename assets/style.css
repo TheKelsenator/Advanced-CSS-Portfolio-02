@@ -1,3 +1,4 @@
+/*Enitre Site*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Header Section*/
 header {
     display: flex;
     flex-wrap: wrap;
@@ -17,12 +19,14 @@ header {
     background-color: #b3b289;
 }
 
+/*'Kelsey's Portfolio Section*/
 header h1 {
     padding-left: 10px;
     padding-top: 5px;
     font-size: 35px;
 }
 
+/*Navigation Section*/
 header ul {
     display: flex;
     list-style: none;
@@ -30,21 +34,25 @@ header ul {
     font-size: 24px;
 }
 
+/*Navigation Text*/
 header a {
     padding: 15px 30px;
     color: #09114e;
     text-decoration: none;
 }
 
+/*Navigation Text Hover*/
 header nav ul li a:hover {
     color: darkred;
 }
 
+/*Main Content Section*/
 body {
     color: #09114e;
     background-color: #964141;
 }
 
+/*Break Section Between Header and About Me Section*/
 .career-title {
     background-image: url(../assets/images/background-image2.jpg);
     background-repeat: no-repeat;
@@ -56,6 +64,7 @@ body {
     width: 100%; 
 }
 
+/*'Full-Stack Web Development Student' Text*/
 .career-title h2 {
     font-size: 30px;
     padding: 10px 40px;
@@ -64,6 +73,7 @@ body {
     border-radius: 10px;
 }
 
+/*About Me Section*/
 .me {
     display: flex;
     align-items: center;
@@ -72,6 +82,7 @@ body {
     padding-left: 40px;
 }
 
+/*About Me Text*/
 .me h2 {
     display: flex;
     align-items: center;
@@ -84,6 +95,7 @@ body {
     border-right: #09114e solid 3px;
 }
 
+/*Profile Picture*/
 .me img {
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +104,7 @@ body {
     width: 80%;
 }
 
+/*About Me Paragraphs*/
 .me p {
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +116,7 @@ body {
     padding-right: 40px;
 }
 
+/*Profile picture*/
 #buck-deadhead {
     object-fit: cover;
     max-width: 20%;
@@ -111,6 +125,7 @@ body {
     flex-direction: column;
 }
 
+/*Work Section*/
 .work-title {
     display: flex;
     align-items: center;
@@ -119,6 +134,7 @@ body {
     padding-left: 40px;
 }
 
+/*All of the Work Projects*/
 .projects {
     display: flex;
     flex-wrap: nowrap;
@@ -129,6 +145,7 @@ body {
     padding-left: 40px;
 }
 
+/*'Work' text*/
 .work-title h2 {
     display: flex;
     justify-content: center;
@@ -139,6 +156,7 @@ body {
     border-right: #09114e solid 3px;
 }
 
+/*Main Project Display*/
 .main-project {
     display: flex;
     flex-wrap: wrap;
@@ -148,6 +166,7 @@ body {
     padding-top: 20px;
 }
 
+/*Main Project Text*/
 #box-text {
     font-size: 28px;
     color: #09114e;
@@ -160,11 +179,13 @@ body {
     max-width: 80%;
 }
 
+/*Main Project Text*/
 #box-text a {
     flex-wrap: wrap;
     font-weight: bold;
 }
 
+/*Main Project Picture*/
 #code-refractor {
     object-fit: cover;
     max-width: 70%;
@@ -173,6 +194,7 @@ body {
     flex-direction: column;
 }
 
+/*Side Project Section*/
 .side-projects {
     display: flex;
     flex-wrap: wrap;
@@ -183,6 +205,7 @@ body {
     width: 80%;
 }    
 
+/*Side Project Display*/
 .side {
     display: flex;
     align-items: center;
@@ -193,6 +216,7 @@ body {
     flex-direction: column;
 }
 
+/*Side Project Text*/
 #box-text2 {
     display: flex;
     flex-wrap: wrap;
@@ -210,30 +234,36 @@ body {
     max-width: 75%;
 }
 
+/*Side Project Text*/
 #box-text2 a {
     font-weight: bold;
 }
 
+/*Movie Side Project Image*/
 #feed-me {
     width: 80%;
     height: auto;
 }
 
+/*Flick Picker Side Project Image*/
 #blazing-saddles {
     width: 60%;
     height: auto;
 }
 
+/*Rafting Side Project Image*/
 #indian-creek {
     width: 80%;
     height: auto;
 }
 
+/*Cooking Side Project Image*/
 #ramen {
     width: 90%;
     height: auto;
 }
 
+/*Contact Information Section*/
 .contact-info {
     display: flex;
     flex-wrap: wrap;
@@ -242,6 +272,7 @@ body {
     background-color: #b3b289;
 }
 
+/*Contact Me Text*/
 .contact-info h2 {
     display: flex;
     align-items: center;
@@ -255,15 +286,17 @@ body {
     height: auto;
 }
 
+/*Contact Navigation Section*/
 .contact-links, 
 .contact-links ul {
     display: flex;
     text-align: center;
     list-style: none;
     margin: 7px 0;
-    font-size: 36px;
+    font-size: 30px;
 }
 
+/*Contact Navigation Section*/
 .contact-links a {
     display: flex;
     flex-wrap: wrap;
@@ -272,10 +305,12 @@ body {
     list-style: none;
 }
 
+/*Contact Navigation Hover Text*/
 .contact-links li a:hover {
     color: darkred;
 }
 
+/*Popup Position*/
 .overlay {
     position: fixed;
     top: 600px;
@@ -285,11 +320,13 @@ body {
     visibility: hidden;
 }
 
+/*Popup Position*/
 .overlay:target {
     visibility: visible;
     opacity: 1;
 }
-  
+
+/*Popup Display*/
 .popup {
     margin: 70px auto;
     padding: 20px;
@@ -299,12 +336,14 @@ body {
     position: relative; 
     border: #09114e solid 2px;  
 }
-  
+
+/*Popup Text*/
 .popup h6 {
     margin-top: 0;
     color:#09114e ;
 }
 
+/*Popup 'x' Close*/
 .popup .close {
     position: absolute;
     top: 0;
@@ -315,6 +354,7 @@ body {
     color: #333;
 }
 
+/*Footer Section*/
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -324,11 +364,13 @@ footer {
     background-color: #b3b289;
 }
 
+/*Round Image Corners*/
 img {
     border: 4px solid #09114e;
     border-radius: 10px;
 }
 
+/*Different Size Screen Instructions*/
 @media screen and (max-width: 1200px) {
     header {
         justify-content: center;

@@ -1,3 +1,4 @@
+/*Entire Site -Any Browser- Override*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,7 @@
     line-height: 1.5;
   }
   
-  h1, h2 {
+  h1, h2, h6 {
     font-size: 100%;
   }
 
