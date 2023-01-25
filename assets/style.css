@@ -236,6 +236,7 @@ body {
 
 .contact-info {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 40px;
     padding-left: 40px;
     background-color: #b3b289;
@@ -254,26 +255,64 @@ body {
     height: auto;
 }
 
-.contact-links {
+.contact-links, 
+.contact-links ul {
     display: flex;
+    text-align: center;
     list-style: none;
     margin: 7px 0;
-    font-size: 24px;
+    font-size: 36px;
 }
 
-/*Left off here, trying to center contact links*/
 .contact-links a {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     padding: 15px 30px;
     color: #09114e;
-    text-decoration: none;
+    list-style: none;
 }
 
 .contact-links li a:hover {
     color: darkred;
+}
+
+.overlay {
+    position: fixed;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #b3b289;
+    border-radius: 5px;
+    width: 470px;
+    position: relative; 
+    border: #09114e solid 2px;  
+}
+  
+.popup h6 {
+    margin-top: 0;
+    color:#09114e ;
+}
+
+.popup .close {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
 }
 
 footer {
@@ -312,9 +351,6 @@ img {
     .contact-info {
         justify-content: center;
     }
-    .contact-info h2 {
-        
-    }
     footer {
         justify-content: center;
     }
@@ -344,8 +380,6 @@ img {
     }
     .contact-info {
         justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
     }
     footer {
         justify-content: center;
@@ -374,8 +408,6 @@ img {
     }
     .contact-info {
         justify-content: center;
-        flex-direction: column;
-        flex-wrap: wrap;
     }
     footer {
         justify-content: center;
