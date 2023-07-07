@@ -39,6 +39,7 @@ Full-Stack Web Development Coding Bootcamp
 ![alt_text](<./assets/images/Screenshot%20(16).png>)
 
 ## Application Link
+
 https://thekelsenator.github.io/Advanced-CSS-Portfolio-02/
 
 ## GitHub Repository 
