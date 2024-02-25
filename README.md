@@ -9,7 +9,16 @@ Full-Stack Web Development Coding Bootcamp
 
 ## Description
 
-- An (interactive) webpage that displays my work portfolio, it includes a little about me, my work, my contact information and my resume.
+- This portfolio viewer provides employers with an easy way to review a potential employee's work samples. Upon loading the portfolio, employers are greeted with the developer's name, a recent photo or avatar, and intuitive navigation links to sections detailing information about the developer, their work, and how to contact them. The navigation seamlessly scrolls to the corresponding section upon click. In the section showcasing the developer's work, titled images of their applications are presented, with the first application's image highlighted in a larger size. Clicking on any application image directs the user to the deployed application. Additionally, the portfolio features a responsive layout that adjusts gracefully to various screen sizes and devices, ensuring a consistent and user-friendly experience for employers across platforms.
+
+## Table of Contents 
+
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [License](#license)
+  - [Screenshots](#screenshots)
+  - [Links](#links)
+  - [Contact Me](#contact-me)
 
 ## User Story
 
@@ -33,13 +42,24 @@ Full-Stack Web Development Coding Bootcamp
 - WHEN I resize the page or view the site on various screens and devices
 - THEN I am presented with a responsive layout that adapts to my viewport
 
-## Screen Shot
+## License
+
+  This project is licensed under the terms of the MIT license.
+  [License Information](https://choosealicense.com/licenses/mit)
+  <br/>
+  <br/>
+  <a href="https://choosealicense.com/licenses/mit">
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+  </a>
+
+## Screenshots
 
 ![alt_text](<./assets/images/Screenshot%20(15).png>)
 ![alt_text](<./assets/images/Screenshot%20(16).png>)
 
-## Application Link
-https://thekelsenator.github.io/Advanced-CSS-Portfolio-02/
+## Links
+  * Application Link: https://thekelsenator.github.io/Advanced-CSS-Portfolio-02/
+  * LinkedIn Profile: https://www.linkedin.com/in/kelsey-o-kelley-23057a20b/
 
-## Github Link
-https://github.com/TheKelsenator/Advanced-CSS-Portfolio-02
+  ## Contact Me
+  Feel free to reach out to me via email at km.okelley89@gmail.com or through my LinkedIn.
